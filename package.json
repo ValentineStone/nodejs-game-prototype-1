@@ -1,0 +1,16 @@
+{
+  "name": "napp",
+  "version": "0.0.1",
+  "description": "",
+  "main": "in.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Leonid Romanovsky <sirLeonidRomanovsky@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "node-cookie": "^2.1.0",
+    "sqlite3": "^4.0.0",
+    "ws": "^5.1.1"
+  }
+}

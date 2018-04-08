@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8"/>
+        <title>Log in</title>
+        <script>
+
+
+
+var redirect = parseURIParameters.redirect;
+
+var form = document.getElementById('form');
+form.action = redirect ? redirect : '/';
+
+
+
+        </script>
+    </head>
+    <body>
+        <form id="form" method="post">
+            <input id="login_in" value="Hello Mrs. Bob" />
+            <input type="submit" />
+        </form>
+    </body>
+</html>

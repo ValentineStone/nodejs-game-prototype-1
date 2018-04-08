@@ -1,0 +1,93 @@
+@font-face {
+    font-family: OpenSans;
+    src: url(/fonts/OpenSans-Light.ttf);
+}
+
+
+
+*
+{
+	font-family: OpenSans, cursive;
+	word-wrap: break-word;
+}
+
+html, body
+{
+    height: 100%;
+}
+
+html
+{
+    display: table;
+    margin: auto;
+}
+
+body
+{
+    display: table-cell;
+    vertical-align: middle;
+	text-align: center;
+	padding: 30px;
+	font-size: 22px;
+	max-width: 800px;
+	background-image: url(/img/bg.png);
+}
+
+input, textarea
+{
+	font-size: inherit;
+	outline: none;
+	padding: 10px;
+	margin: 5px;
+}
+
+a
+{
+	text-decoration: none;
+	font-weight: 600;
+}
+
+pre
+{
+	white-space: normal;
+}
+
+input.field
+{
+	background-color: transparent;
+	border-width: 0;
+	width: min-content;
+	padding: 0;
+	margin: 0;
+	width: 200px;
+	border: 1px solid transparent;
+}
+
+input.field:hover
+{
+	border-bottom-color: lightgray;
+}
+
+
+input.field:focus
+{
+	border-bottom-color: gray;
+}
+
+
+table.form td
+{
+	width: 200px;
+}
+
+table.form td:nth-child(1)
+{
+	text-align: right;
+	padding: 0 10px 0 0;
+}
+
+table.form td:nth-child(2)
+{
+	text-align: left;
+	padding: 0 0 0 10px;
+}

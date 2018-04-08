@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8"/>
+        <title>Log in</title>
+
+        <link rel="stylesheet" href="/.css">
+
+        <script src="/js/sha256.js" defer></script>
+        <script src="/js/bin2hex.js" defer></script>
+        <script src="/js/ajax.js" defer></script>
+        <script src="/login/.js" defer></script>
+
+    </head>
+    <body>
+
+        <form id="login_form" style="display:none;">
+            <input id="user_name" type="text" placeholder="Username"/><br/>
+            <input id="user_pass" type="password" placeholder="Password"/><br/>
+            <input type="submit" value="Log in" onclick="process_and_submit('login'); return false;"/>
+            <a href="/register">Register</a><br/>
+            <p id="comment"></p>
+        </form>
+
+    </body>
+</html>

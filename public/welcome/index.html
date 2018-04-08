@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8" />
+		<title>Welcome</title>
+		<link rel="stylesheet" href="/.css">
+		<script src="/js/ajax.js" defer></script>
+		<script src="/js/json_populate.js" defer></script>
+		<script src="/welcome/.js" defer></script>
+	</head>
+	<body>
+		<h1>Welcome to the gaming portal!</h1>
+		<img src="/img/800.gif"/><br/>
+		<div id="login_div" style="display:none;">
+			<h2><a href="/login">Log in</a> or <a href="/register">Register</a></h2>
+		</div>
+		<div id="profile_div" style="display:none;">
+			<h2>Glad to see you here, <span data-name="user_alias"></span>!</h2>
+			<a href="/profile">My profile</a><br/>
+			<a href="/logout">Log out</a><br/>
+		</div>
+	</body>
+</html>

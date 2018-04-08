@@ -1,0 +1,50 @@
+html
+{
+	cursor: url(/world/cursor.png), pointer;
+	background-image: url(/world/bg.png);
+}
+
+
+body
+{
+    vertical-align: top;
+	background: transparent;
+	/*background: rgb(0,0,20);*/
+}
+
+div.world
+{
+	position: absolute;
+	top: calc(50% - 350px);
+	left: calc(50% - 350px);
+
+	width: 700px;
+	height: 700px;
+	/*background-color: rgb(0,0,20);*/
+
+	border: 1px solid lime;
+}
+
+div.entity
+{
+	cursor: url(/world/cursor_active.png), pointer;
+}
+
+a.exit
+{
+	position: absolute;
+	top: 20px;
+	right: 30px;
+	color:lime;
+	text-decoration: underline;
+}
+
+
+
+a.alias
+{
+	color:lime;
+	font-size: 12px;
+	text-decoration: underline;
+	display: block;
+}

@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8" />
+        <title>User profile</title>
+        <link rel="stylesheet" href="/.css">
+        <script src="/js/ajax.js" defer></script>
+        <script src="/js/json_populate.js" defer></script>
+        <script src="/profile/.js" defer></script>
+    </head>
+    <body>
+
+        <h3>Here you can view and edit your profile.</h3>
+
+        <table class="form">
+            <tr>
+                <td>User ID</td><td><span data-name="user_id"></span></td>
+            </tr>
+            <tr>
+                <td>Username</td><td><input name="user_name" id="user_name" class="field"/></td>
+            </tr>
+            <tr>
+                <td>Alias</td><td><input name="user_alias" id="user_alias" class="field"/></td>
+            </tr>
+            <tr>
+                <td>Character</td><td><input name="user_chr" id="user_chr" class="field"/></td>
+            </tr>
+        </table><br/>
+        <input type="button" value="Submit" onclick="on_submit();"/><br/>
+        <p id="comment"></p><br/><br/>
+
+        <a href="/logout">Log out</a><br/>
+        <a href="/welcome">Welcome page</a><br/>
+        <a href="/world">Play «World»</a>
+    </body>
+</html>
